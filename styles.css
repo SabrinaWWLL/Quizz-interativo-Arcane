@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'MinhaFonte';
+    src: url('fonts/Hudson\ NY.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'MinhaFonte', Arial, sans-serif;
+    background-image: url(imgs/arcanefundo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#quiz-container {
+    background-color: #07070e; 
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 600px;
+    border: 1px solid #ffffff0c; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.biografia-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #111325; 
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+.biografia-legenda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.biotexto {
+    display: flex;
+    margin-left: 0;
+    margin-top: 0px;
+    
+}
+
+.biolegenda {
+    font-family: 'MinhaFonte', Arial, sans-serif !important;
+    font-size: 14px !important;
+    display: flex;
+    margin-bottom: 0px;
+
+}
+
+.biotitulo {
+    font-size: 40px;
+    display: flex;
+    margin-top: 0;
+}
+
+button.answer {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #111325;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.answer:hover {
+    background-color: #80808052;
+}
+
+#result {
+    text-align: center;
+}
+
+#result p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+.jinx-style {
+    
+    background-image: url('imgs/jinx.gif');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
+}
+
+
+.vi-style {
+
+    background-image: url('imgs/Vipf.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
+
+}
+
+.ekko-style {
+    background-image: url('imgs/ekkopf.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden; 
+
+}
+
+
+.jayce-style {
+    background-image: url('imgs/jaycepf.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh;
+    margin: 0; 
+    overflow: hidden; 
+}
+
+
+.caitlyn-style {
+    background-image: url('imgs/caitlynpf.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0; 
+    overflow: hidden; 
+}
+
+.viktor-style {
+    background-image: url('imgs/viktorpf.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed; 
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden; 
+}
+
+.character-image {
+    max-width: 400px !important;       
+    height: auto;         
+    border-radius: 8px;    
+    border: 2px solid #afafaf; 
+    box-shadow: 0 0 15px rgba(255, 140, 194, 0.2); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.jinx-biolegenda {
+    color: #2f3dff !important;  
+}
+
+.vi-biolegenda {
+    color: #cf1b6f !important;  
+}
+
+.ekko-biolegenda {
+    color: #636e44 !important;  
+}
+
+.jayce-biolegenda {
+    color: #fdbd5d !important;  
+}
+
+.caitlyn-biolegenda {
+    color: #5c477e !important;  
+}
+
+.viktor-biolegenda {
+    color: #57413a !important;  
+}
+
+.jinx-biotitulo {
+    color: #2f3dff !important;  
+}
+
+.vi-biotitulo {
+    color: #cf1b6f !important; 
+ 
+}
+
+.ekko-biotitulo {
+    color: #636e44 !important; 
+   
+}
+
+.jayce-biotitulo {
+    color: #fdbd5d !important; 
+ 
+}
+
+.caitlyn-biotitulo {
+    color: #5c477e !important; 
+ 
+}
+
+.viktor-biotitulo {
+    color: #57413a !important; 
+   
+}
+
+
+
+
